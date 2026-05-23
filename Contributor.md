@@ -1,4 +1,5 @@
 Contributing to IntentTracker-Pro 🎯
+
 First off, thank you for considering contributing to IntentTracker-Pro! It’s people like you who make this tool a better resource for everyone looking to master their digital intent.
 
 This project is a part of GSSoC 2026, and we follow the official GSSoC guidelines.
