@@ -47,6 +47,8 @@ Our codebase is strictly modular. **Do not modify `app.js` unless fixing core ro
 ### 👩‍💻 Contribution Guide (GSSoC 2026)
 We follow a strict **Label System** to help you earn points efficiently:
 
+### Check Contributer.md and TODO.md
+
 1.  **Level 1 :** Documentation, Typos, UI Tweaks, Color variable updates.
 2.  **Level 2 :** Responsive design fixes, New Dashboard Widgets, Timer logic optimizations.
 3.  **Level 3 :** Google OAuth integration, Complex Charting logic, Offline PWA support.
