@@ -76,9 +76,8 @@ We follow a strict **Label System** to help you earn points efficiently:
 ---
 
 ## 🤝 Project Leadership
-- **Project Admin:** [Your Name]
-- **Contact:** [Your Discord/Email]
-- **Role:** Lead Architect & Mentor for GSSoC '26
+- **Project Admin:** Semmozhi
+- **Role:** Project Admin for  GSSoC '26
 
 ---
 <p align="center">Built with 💙 for the Open Source Community.</p>
