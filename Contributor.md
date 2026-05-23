@@ -7,6 +7,27 @@ Thank you for choosing to be part of the **IntentTracker-Pro** family! 🎯 By c
 
 ---
 
+## ℹ️ About IntentTracker-Pro
+**IntentTracker-Pro** (often called **IntentTracker**) bridges the gap between *digital intent* (what you want to do) and *behavior* (what you actually do).
+
+### What it does (in-browser)
+- **Focus Timer**: Start a session for a specific goal/intent.
+- **Session Tracking**: When you stop, the app records an outcome (achieved/distracted) and stores the session.
+- **History + Analytics**: View your past sessions and see simple insights.
+- **Todos + Notes**: Plan daily tasks and write reflections—both persisted locally.
+
+### Privacy-first design
+This project is intentionally **serverless**:
+- All data is stored in **`localStorage`** (no backend, no external tracking pixels).
+- Your sessions/tasks/notes stay on your device.
+
+### Current architecture
+- **`/js`**: feature modules (`auth`, `tracker`, `todo`, `notes`, `history`)
+- **`/css`**: glass UI layout + theme variables (`themes.css` + `styles.css`)
+
+---
+
+
 ## 🛠️ Getting Started
 
 ### 1. Prerequisites
@@ -39,50 +60,43 @@ We keep it lean. No complex setups or heavy dependencies:
 Always create a dedicated branch for your work to keep the main branch stable.
 ```bash
 git checkout -b feature/your-amazing-feature
- 
+```
+
 ### 💻 Step 3: Clean Coding Standards
-Modular Architecture: Store logic in /js and styling in /css.
+* **Modular Architecture:** Store logic in `/js` and styling in `/css`.
+* **Vanilla Only:** No frameworks. We believe in the power of pure JavaScript!
+* **Manual Testing:** Open `index.html` and ensure your changes haven't affected the timer or charts.
 
-Vanilla Only: No frameworks. We believe in the power of pure JavaScript!
-
-Manual Testing: Open index.html and ensure your changes haven't affected the timer or charts.
-
-###📤 Step 4: Pushing Your Work
-
-Bash
+### 📤 Step 4: Pushing Your Work
+```bash
 git add .
 git commit -m "feat: added a new focus milestone notification"
 git push origin feature/your-amazing-feature
+```
 
-###🚀 Step 5: The Pull Request (PR)
-
+### 🚀 Step 5: The Pull Request (PR)
 When opening your PR, ensure it includes:
 
-Title: Concise (e.g., Fix: Responsive bug on mobile dashboard).
-
-Reference: Link the issue using Closes #IssueNumber.
-
-Visuals: If you change the UI, attach a screenshot or GIF.
+* **Title:** Concise (e.g., `Fix: Responsive bug on mobile dashboard`).
+* **Reference:** Link the issue using `Closes #IssueNumber`.
+* **Visuals:** If you change the UI, attach a screenshot or GIF.
 
 ### 🎨 Style Guidelines
-✨ CSS & Design
-Space: Use --spacing-lg variables for a high-end, spacious feel.
 
-Glassmorphism: Use semi-transparent backgrounds and backdrop-filter: blur().
+✨ **CSS & Design**
+* Space: Use `--spacing-lg` variables for a high-end, spacious feel.
+* Glassmorphism: Use semi-transparent backgrounds and `backdrop-filter: blur()`.
+* Themes: Use variables from `themes.css`. Never hardcode hex colors.
 
-Themes: Use variables from themes.css. Never hardcode hex colors.
+⚡ **JavaScript (ES6+)**
+* Syntax: Use arrow functions, destructuring, and template literals.
+* Zero Pollution: Do not use global variables. Wrap logic in Modules or Objects.
+* Comments: Explain the **why**, not just the **how**.
 
-###⚡ JavaScript (ES6+)
-Syntax: Use arrow functions, destructuring, and template literals.
+### 📬 Need a Hand?
 
-Zero Pollution: Do not use global variables. Wrap logic in Modules or Objects.
-
-Comments: Explain the why, not just the how.
-
-###📬 Need a Hand?
-
-GitHub Discussions: Best for architectural or logic questions.
-
-GSSoC Slack/Discord: For real-time chats with the Admin team.
+* **GitHub Discussions:** Best for architectural or logic questions.
+* **GSSoC Slack/Discord:** For real-time chats with the Admin team.
 
 Let’s build something that makes the internet a more intentional place! Happy Coding! 🚀
+
