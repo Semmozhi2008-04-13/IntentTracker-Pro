@@ -41,28 +41,28 @@ Most productivity apps suffer from **The Quantity Trap**. They track *how many* 
 
 ---
 
-## 🏗 Architecture
-Our codebase is strictly **modular**. To maintain the "Space" and minimalism of the project, please adhere to this structure:
+### 🏗 Architecture & Modules
+Our codebase is strictly modular. **Do not modify `app.js` unless fixing core routing.**
 
-- 📂 `/css`: `styles.css` (Layout & Spacing) & `themes.css` (Color Variables)
-- 📂 `/js`: 
-    - `auth.js` ➔ Session Persistence & Login
-    - `tracker.js` ➔ Core Timer & Focus Score Logic
-    - `todo.js` ➔ State management for tasks
-    - `notes.js` ➔ Reflection & Markdown parsing
-    - `app.js` ➔ **The Brain (Router). Do not modify core routing.**
-
----
-
-## ⚙️ Technical Highlights (For Developers)
-- **Zero-Server Architecture:** 100% privacy. We use **LocalStorage**; data never leaves your machine.
-- **Modular Vanilla JS:** No frameworks (React/Vue). We use **ES6 Modules** for maximum performance.
-- **Spacious Design:** A minimalist UI focused on reducing cognitive load through significant white space.
+* 📂 `/css`: `styles.css` (Layout) & `themes.css` (Colors)
+* 📂 `/js`: 
+    * `auth.js` ➔ Session Persistence
+    * `tracker.js` ➔ Logic for the Focus Score 🧠
+    * `todo.js` ➔ State management for tasks
+    * `notes.js` ➔ Markdown parsing
 
 ---
 
-## 👩‍💻 How to Contribute
-We follow a strict **Label System** for GSSoC points:
+### 🛠 Tech Stack
+- **Typography:** Inter & Monaspace Neon
+- **Logic:** Vanilla ES6+ JavaScript
+- **Visualization:** Chart.js (v4.0+)
+- **Storage:** persistent LocalStorage API
+
+---
+
+### 👩‍💻 Contribution Guide (GSSoC 2026)
+We follow a strict **Label System** to help you earn points efficiently:
 
 1. **Level 1 (Easy):** Documentation, typos, UI color updates, or minor CSS tweaks.
 2. **Level 2 (Medium):** Responsive design, new dashboard widgets, timer logic optimizations.
