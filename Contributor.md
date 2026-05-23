@@ -1,4 +1,3 @@
-📜 CONTRIBUTING.md
 Contributing to IntentTracker-Pro 🎯
 First off, thank you for considering contributing to IntentTracker-Pro! It’s people like you who make this tool a better resource for everyone looking to master their digital intent.
 
