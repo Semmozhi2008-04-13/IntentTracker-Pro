@@ -1,0 +1,35 @@
+:root {
+  --bg: #f8fafc;
+  --card: #ffffff;
+  --text: #1e293b;
+  --accent: #6366f1;
+  --border: #e2e8f0;
+}
+
+.dark-theme {
+  --bg: #0f172a;
+  --card: #1e293b;
+  --text: #f8fafc;
+  --accent: #818cf8;
+  --border: rgba(148, 163, 184, 0.25);
+}
+
+/* Extra UI tokens */
+.success-border {
+  border: 1px solid rgba(16, 185, 129, 0.55);
+}
+
+.fail-border {
+  border: 1px solid rgba(239, 68, 68, 0.55);
+}
+
+.btn-delete {
+  background: transparent;
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  width: 34px;
+  height: 34px;
+  cursor: pointer;
+}
+
