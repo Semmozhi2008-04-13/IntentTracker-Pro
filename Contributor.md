@@ -1,87 +1,88 @@
-Contributing to IntentTracker-Pro 🎯
+# 🤝 Contributing to IntentTracker-Pro
 
-First off, thank you for considering contributing to IntentTracker-Pro! It’s people like you who make this tool a better resource for everyone looking to master their digital intent.
+Thank you for choosing to be part of the **IntentTracker-Pro** family! 🎯 By contributing, you are helping developers worldwide reclaim their focus and master their digital intent.
 
-This project is a part of GSSoC 2026, and we follow the official GSSoC guidelines.
+> [!IMPORTANT]
+> This project is a proud participant of **GSSoC 2026**. We value quality code, meaningful logic, and a supportive community.
 
-🛠️ Getting Started
-1. Prerequisites
-You only need a modern web browser and a code editor (like VS Code). No heavy installations are required as this is a Vanilla HTML/CSS/JS project.
+---
 
-2. Fork and Clone
-Fork the repository to your own GitHub account.
+## 🛠️ Getting Started
 
-Clone the project to your local machine:
+### 1. Prerequisites
+We keep it lean. No complex setups or heavy dependencies:
+* **Web Browser:** A modern browser (Chrome, Brave, or Firefox).
+* **Code Editor:** [VS Code](https://code.visualstudio.com/) is recommended.
+* **Live Server:** Optional, but highly recommended for real-time feedback.
 
-Bash
-git clone https://github.com/YOUR_USERNAME/IntentTracker-Pro.git
-Navigate into the directory:
+### 2. Fork & Clone
+1.  **Fork** the repository by clicking the button at the top right of the GitHub page.
+2.  **Clone** your fork locally:
+    ```bash
+    git clone [https://github.com/YOUR_USERNAME/IntentTracker-Pro.git](https://github.com/YOUR_USERNAME/IntentTracker-Pro.git)
+    ```
+3.  **Navigate** to the project directory:
+    ```bash
+    cd IntentTracker-Pro
+    ```
 
-Bash
-cd IntentTracker-Pro
-🛣️ Contribution Workflow
-Step 1: Find an Issue
-Go to the Issues tab.
+---
 
-Look for labels like good-first-issue, documentation, or help-wanted.
+## 🛣️ The Contribution Journey
 
-Comment on the issue to get it assigned to you.
+### 🔍 Step 1: Issue Discovery & Hygiene
+* **Check for Duplicates:** Search the Issues Tab to ensure your idea hasn't been reported.
+* **Request Assignment:** Comment on an issue to be assigned. **Wait for Admin approval** before you start coding.
+* **Raising New Issues:** Clearly describe the "What" and "Why" using the provided templates.
 
-Note: Please do not start working on an issue until you are assigned to it by a Project Admin.
+### 🌿 Step 2: Branching Strategy
+Always create a dedicated branch for your work to keep the main branch stable.
+```bash
+git checkout -b feature/your-amazing-feature
+ 
+### 💻 Step 3: Clean Coding Standards
+Modular Architecture: Store logic in /js and styling in /css.
 
-Step 2: Create a Branch
-Create a new branch for your work. Name it descriptively:
+Vanilla Only: No frameworks. We believe in the power of pure JavaScript!
 
-Bash
-git checkout -b feature/your-feature-name
-# OR
-git checkout -b fix/issue-description
-Step 3: Make Your Changes
-Ensure your code follows the modular structure (/js for logic, /css for styles).
+Manual Testing: Open index.html and ensure your changes haven't affected the timer or charts.
 
-Keep your code clean and add comments where necessary.
+###📤 Step 4: Pushing Your Work
 
-Test your changes locally by opening index.html in your browser.
-
-Step 4: Commit and Push
 Bash
 git add .
-git commit -m "Brief description of your changes"
-git push origin your-branch-name
-Step 5: Open a Pull Request (PR)
-Go to the original repository on GitHub.
+git commit -m "feat: added a new focus milestone notification"
+git push origin feature/your-amazing-feature
 
-Click Compare & pull request.
+###🚀 Step 5: The Pull Request (PR)
 
-Provide a clear description of your changes and reference the issue number (e.g., Closes #12).
+When opening your PR, ensure it includes:
 
-🎨 Style Guidelines
-1. CSS Formatting
-Use CSS Variables defined in themes.css for colors.
+Title: Concise (e.g., Fix: Responsive bug on mobile dashboard).
 
-Use Flexbox or Grid for layouts. Avoid using absolute positioning unless necessary.
+Reference: Link the issue using Closes #IssueNumber.
 
-Ensure your designs are mobile-responsive.
+Visuals: If you change the UI, attach a screenshot or GIF.
 
-2. JavaScript Best Practices
-Use const and let instead of var.
+### 🎨 Style Guidelines
+✨ CSS & Design
+Space: Use --spacing-lg variables for a high-end, spacious feel.
 
-Keep functions modular. If you are adding a new feature, consider if it needs a new file in the /js folder.
+Glassmorphism: Use semi-transparent backgrounds and backdrop-filter: blur().
 
-Do not use external libraries unless discussed in the issue (we prefer Vanilla JS!).
+Themes: Use variables from themes.css. Never hardcode hex colors.
 
-⚖️ GSSoC Rules to Remember
-Plagiarism will lead to immediate disqualification.
+###⚡ JavaScript (ES6+)
+Syntax: Use arrow functions, destructuring, and template literals.
 
-Respect the Code of Conduct. Be kind and helpful to fellow contributors.
+Zero Pollution: Do not use global variables. Wrap logic in Modules or Objects.
 
-PR Review Time: Please allow 24–48 hours for the Project Admins to review your PR.
+Comments: Explain the why, not just the how.
 
-📬 Need Help?
-If you have any questions, feel free to:
+###📬 Need a Hand?
 
-Open a Discussion on GitHub.
+GitHub Discussions: Best for architectural or logic questions.
 
-Reach out to the Project Admin on the official GSSoC Discord/Slack channel.
+GSSoC Slack/Discord: For real-time chats with the Admin team.
 
-Happy Coding! 🚀
+Let’s build something that makes the internet a more intentional place! Happy Coding! 🚀
