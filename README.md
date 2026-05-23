@@ -9,6 +9,9 @@
 </p>
 
 ---
+### Quick link 
+ #### website link : https://intentdigitaltrackerpro.netlify.app/  
+#### live link
 
 ## 🧠 The Philosophy: Why IntentTracker?
 Most productivity apps suffer from **The Quantity Trap**. They track *how many* minutes you spent, but ignore *what* you actually planned to do. This leads to **"Productivity Guilt"**—feeling busy without being effective.
